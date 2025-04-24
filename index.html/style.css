@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f0f4ff, #e0f7fa);
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  header {
+    text-align: center;
+    padding: 30px 0;
+    background: #1e3a8a;
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .hero img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: 15px;
+  }
+  .hero h2 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .hero p {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in;
+  }
+  .card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+  }
+  .blue {
+    background: #3b82f6;
+    color: white;
+  }.skill-btn {
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .skill-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    display: none;
+    z-index: 1000;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .popup p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .popup button {
+    padding: 8px 16px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .popup button:hover {
+    background-color: #2563eb;
+  }
+  
+  .projects ul {
+    list-style: none;
+    text-align: center;
+  }
+  .projects li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #1e40af;
+    font-weight: 600;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #1e3a8a;
+    color: white;
+  }
+  /* Add styling for contact form */
+.contact-box {
+    background: #f3f4f6;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+  }
+  
+  .contact-box p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .contact-form input:focus, 
+  .contact-form textarea:focus {
+    border-color: #1e3a8a;
+  }
+  
+  .contact-form .form-group input {
+    height: 40px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1e3a8a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #2563eb;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #1e3a8a;
+    color: white;
+  }
+  footer a {
+    color: #bbf7d0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  footer a {
+    color: #bbf7d0;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
